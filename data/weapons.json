@@ -1,0 +1,66 @@
+[
+  {
+    "type": "gun.svg",
+    "title": "Shotgun",
+    "images": "gun-shot.png",
+    "framed": true
+  },
+  {
+    "_count": 2,
+    "type": "gun.svg",
+    "title": "Sturmgewehr",
+    "images": "gun-sturm.png",
+    "framed": true
+  },
+  {
+    "type": "gun.svg",
+    "title": "MP5",
+    "images": "gun-mp5.png",
+    "framed": true
+  },
+  {
+    "type": "gun.svg",
+    "title": "Sniper",
+    "images": "gun-msr.png",
+    "framed": true
+  },
+  {
+    "_count": 4,
+    "type": "gun.svg",
+    "title": "Pistole",
+    "images": "gun-pistol.png",
+    "framed": true
+  },
+  {
+    "type": "gun.svg",
+    "title": "Taser",
+    "images": "gun-taser.png",
+    "framed": true,
+    "droped": true
+  },
+  {
+    "type": "gun.svg",
+    "title": "Granatwerfer",
+    "images": "gun-taser.png",
+    "framed": true,
+    "droped": true
+  },
+  {
+    "type": "gun-add.svg",
+    "title": "Visier",
+    "images": "equip-visier.png"
+  },
+  {
+    "type": "gun-add.svg",
+    "title": "Sniper Schiene",
+    "images": "equip-schiene.png",
+    "framed": true,
+    "droped": true
+  },
+  {
+    "type": "gun-add.svg",
+    "title": "Langer Lauf",
+    "images": "equip-long.png",
+    "framed": true
+  }
+]

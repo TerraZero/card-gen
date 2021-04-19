@@ -1,0 +1,13 @@
+doctype html
+
+html
+  head
+    link(rel="stylesheet", href="styles.css")
+    link(href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap", rel="stylesheet")
+  body
+    .page(class='page--' + (print ? 'print' : 'generate'))
+      block page
+        .cards
+          each card in cards
+            | !{card}
+          

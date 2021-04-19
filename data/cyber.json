@@ -1,0 +1,16 @@
+[
+  {
+    "type": "cyber-add.svg",
+    "title": "Cyber Arm",
+    "images": "cyber-arm.png",
+    "framed": true,
+    "droped": true
+  },
+  {
+    "type": "cyber-add.svg",
+    "title": "Cyber Bein",
+    "images": "cyber-bein.png",
+    "framed": true,
+    "droped": true
+  }
+]

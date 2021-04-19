@@ -1,0 +1,40 @@
+.card__grid
+  .card(class='card--' + _card)
+    block card
+      .card__header
+        block header
+          .card__type
+            .card__cat(style="background-image: url('files/cat-" + type + "');")
+          .card__title
+            span.card__title-bottom-pad
+              | #{title}
+      .card__media
+        block image
+          - images = (Array.isArray(images) ? images : [images]);
+          - classes = ['card__frame--' + images.length];
+          - if (framed) classes.push('card__frame--framed');
+          - if (droped) classes.push('card__frame--droped');
+          - if (shadowed) classes.push('card__frame--shadowed');
+          - if (stretched) classes.push('card__frame--stretched');
+          .card__frame(class=classes.join(' '))
+            each image in images
+              .card__image(style="background-image: url('files/" + image + "');")
+            .card__frame-image
+      if description
+        .card__description
+          block description
+            - description = (Array.isArray(description) ? description : [description]);
+            each desc in description
+              p.card__text
+                | #{desc}
+      if skills
+        .card__skills
+          .card__table
+            each row in skills
+              .card__row
+                each column in row
+                  .card__column
+                    | #{column}
+  if !_print
+    .card__data
+      | Number: #{_count}

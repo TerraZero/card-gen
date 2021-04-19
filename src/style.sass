@@ -1,0 +1,131 @@
+.card
+  position: relative
+  border: 1px solid black
+  width: 6.6cm
+  height: 9.3cm
+  box-sizing: border-box
+  background-image: url('files/card.jpg')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center center
+
+  &__header
+    display: flex
+    height: 78px
+    background-image: url('files/title-brush-edit.png')
+    background-size: contain
+    background-repeat: no-repeat
+    color: white
+    font-size: 16px
+
+  &__type
+    min-width: 72px
+    box-sizing: border-box
+    padding: 10px 10px 15px
+
+  &__cat
+    width: 100%
+    height: 100%
+    background-repeat: no-repeat
+    background-position: center
+    background-size: contain
+
+  &__title
+    display: flex
+    justify-content: center
+    align-items: center
+    padding-right: 20px
+    text-align: center
+
+  &__title-bottom-pad
+    padding-bottom: 4px
+  
+  &__media
+    display: flex
+    height: 120px
+    justify-content: center
+    align-items: center
+    
+  &__frame
+    position: relative
+    display: grid
+    width: 80%
+    height: 110px
+    box-shadow: 0 0 25px black, 0 0 20px black, 0 0 15px black
+
+  &__frame-image
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    background-image: url('files/frame.png')
+    background-repeat: no-repeat
+    background-size: 100% 100%
+
+  &__frame--framed
+    padding: 15px
+    box-sizing: border-box
+
+  &__frame--stretched &__image
+    background-size: 100% 100%
+
+  &__frame--droped &__image
+    filter: drop-shadow(0px 1px black)
+
+  &__frame--shadowed &__image
+    filter: drop-shadow(1px 1px 30px black)
+
+  &__frame--droped.card__frame--shadowed &__image
+    filter: drop-shadow(0px 1px black) drop-shadow(1px 1px 30px black)
+
+  &__frame--2,
+  &__frame--3,
+  &__frame--4
+    grid-template-columns: 1fr 1fr
+    grid-gap: 15px
+    padding: 15px
+    box-sizing: border-box
+
+  &__frame--3 > &__image:nth-child(3)
+    grid-column: 2 span
+
+  &__image
+    width: 100%
+    height: 100%
+    background-size: contain
+    background-position: center
+    background-repeat: no-repeat
+    box-sizing: border-box
+
+  &__description
+    padding-top: 10px
+
+  &__text
+    margin: 5px 10px
+    font-size: 12px
+
+  &__skills
+    position: absolute
+    padding: 0 10px 10px
+    bottom: 0
+    left: 0 
+    right: 0
+
+  &__table
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    grid-auto-flow: dense
+
+  &__row
+    display: flex
+
+  &__column
+    width: 50%
+    text-align: center
+    border: 1px solid black
+    box-sizing: border-box
+
+  &__row > &__column:first-child
+    background: rgba(0, 0, 0, .5)
+    color: white

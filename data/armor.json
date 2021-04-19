@@ -1,0 +1,44 @@
+[
+  {
+    "type": "armor.svg",
+    "title": "Schwere Rüstung",
+    "images": "armor-sturm.png",
+    "framed": true
+  },
+  {
+    "type": "armor.svg",
+    "title": "Mittlere Rüstung",
+    "images": "armor-support.png",
+    "framed": true
+  },
+  {
+    "type": "armor.svg",
+    "title": "Mittlere Rüstung",
+    "images": "armor-support.png",
+    "framed": true
+  },
+  {
+    "type": "armor.svg",
+    "title": "Leichte Rüstung",
+    "images": "armor-sniper.png",
+    "framed": true
+  },
+  {
+    "_count": 2,
+    "type": "armor-add.svg",
+    "title": "Energieschild",
+    "images": "armor-energy.png"
+  },
+  {
+    "_count": 2,
+    "type": "armor-add.svg",
+    "title": "Tarnkappe",
+    "images": "armor-energy.png"
+  },
+  {
+    "type": "armor-add.svg",
+    "title": "Sturmschild",
+    "images": "armor-shield.png",
+    "framed": true
+  }
+]

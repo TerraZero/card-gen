@@ -1,0 +1,10 @@
+[
+  {
+    "type": "com-add.svg",
+    "title": "Hirn Optimierung",
+    "images": ["com-main.png", "cat-com-add.svg"],
+    "framed": true,
+    "droped": true,
+    "shadowed": true
+  }
+]

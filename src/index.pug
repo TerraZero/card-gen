@@ -1,0 +1,13 @@
+extends page.pug
+
+block page
+  .index
+    ul.menu
+      each link in links
+        li  
+          a(href=link.url)= link.name
+
+    ul.menu
+      each print in prints
+        li  
+          a(href=print.url)= print.name

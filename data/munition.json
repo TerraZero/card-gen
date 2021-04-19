@@ -1,0 +1,134 @@
+[
+  {
+    "type": "mun-add.svg",
+    "title": "Panzerbrechende Munition",
+    "images": "mun-long.png",
+    "description": ["Durchschlägt Panzerung und schwächere Wände."],
+    "skills": [
+      ["R", "+1"],
+      ["H", "-2"],
+      ["S", "+1"]
+    ]
+  },
+  {
+    "type": "mun-add.svg",
+    "title": "Explodierende Munition",
+    "images": "mun-explode.png",
+    "description": "Explodiert beim Aufprall",
+    "skills": [
+      ["R", "-1"],
+      ["H", "+2"],
+      ["S", "+2"],
+      ["A", "+2"]
+    ]
+  },
+  {
+    "_count": 2,
+    "type": "mun-add.svg",
+    "title": "Gift Munition",
+    "images": "mun-gift.png",
+    "description": "Vergiftet gegner",
+    "skills": [
+      ["H", "+4"],
+      ["S", "/"],
+      ["G", "~4"]
+    ]
+  },
+  {
+    "_count": 2,
+    "type": "mun-add.svg",
+    "title": "Tag Munition",
+    "images": "mun-tag.png",
+    "description": "Setzt eine Wanze an den Gegner",
+    "skills": [
+      ["H", "+3"],
+      ["S", "/"]
+    ]
+  },
+  {
+    "type": "mun-add.svg",
+    "title": "EMP Munition",
+    "images": "mun-emp.png",
+    "description": "Deaktiviert Geräte im Zielbereich",
+    "skills": [
+      ["H", "+1"],
+      ["S", "/"],
+      ["A", "+2"]
+    ]
+  },
+  {
+    "type": "mun-add.svg",
+    "title": "Multifunktions Munition",
+    "images": "mun-multi.png",
+    "description": "Kann Geräte oder andere Teilchen an einen Ort befördern.",
+    "skills": [
+      ["H", "-1"],
+      ["S", "/"]
+    ]
+  },
+  {
+    "type": "mun-add.svg",
+    "title": "ACM",
+    "images": "mun-acm.png",
+    "description": ["Durchschlägt Panzerung und starke Wände.", "Nach Einschlag bohrt sich die Kugel durch die Panzerung und explodiert."],
+    "skills": [
+      ["H", "-2"],
+      ["S", "+5"]
+    ]
+  },
+  {
+    "type": "mun-add.svg",
+    "title": "Schrotmuni",
+    "images": "mun-acm.png",
+    "description": ["Durchschlägt Panzerung und starke Wände.", "Nach Einschlag bohrt sich die Kugel durch die Panzerung und explodiert."],
+    "skills": [
+      ["H", "-2"],
+      ["S", "+5"]
+    ]
+  },
+  {
+    "type": "mun-add.svg",
+    "title": "Flammenmuni",
+    "images": "mun-acm.png",
+    "description": ["Durchschlägt Panzerung und starke Wände.", "Nach Einschlag bohrt sich die Kugel durch die Panzerung und explodiert."],
+    "skills": [
+      ["H", "-2"],
+      ["S", "+5"]
+    ]
+  },
+  {
+    "type": "mun-add.svg",
+    "title": "Blendmuni",
+    "images": "mun-acm.png",
+    "description": ["Durchschlägt Panzerung und starke Wände.", "Nach Einschlag bohrt sich die Kugel durch die Panzerung und explodiert."],
+    "skills": [
+      ["H", "-2"],
+      ["S", "+5"]
+    ]
+  },
+  {
+    "_count": 2,
+    "type": "mun-use.svg",
+    "title": "Große Munition",
+    "images": ["mun-mun.png", "mun-mun-2.png", "mun-mun-3.png", "mun-mun-4.png"],
+    "description": ["Füllt die Munition aller Aktiven Waffen auf.", "Kann hingelegt werden."],
+    "uses": 4
+  },
+  {
+    "_count": 3,
+    "type": "mun-use.svg",
+    "title": "Mittle Munition",
+    "images": ["mun-mun.png", "mun-mun-2.png", "mun-mun-3.png"],
+    "images_padding": 10,
+    "description": ["Füllt die Munition einer Waffe auf.", "Kann hingelegt werden."],
+    "uses": 4
+  },
+  {
+    "_count": 4,
+    "type": "mun-use.svg",
+    "title": "Munition",
+    "images": ["mun-mun.png", "mun-mun-2.png"],
+    "description": "Füllt die Munition einer Waffe wieder auf.",
+    "uses": 1
+  }
+]
