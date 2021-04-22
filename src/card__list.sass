@@ -1,0 +1,25 @@
+.card--list .card
+
+  &__title
+    display: flex
+    justify-content: center
+    font-size: 30px
+    text-shadow: 1px 1px 2px black, 0 0 20px black, 0 0 40px black, 0 0 60px black, 0 0 80px black
+    color: white
+  
+  &__list
+    display: grid
+    grid-template-columns: 38px 1fr
+    margin: 15px
+
+  &__cell
+    text-align: center
+    border: 1px solid black
+    box-sizing: border-box
+    background: rgba(0, 0, 0, .2)
+    color: white
+    text-shadow: 1px 1px 5px black
+
+  &__cell:nth-child(2n+1)
+    background: rgba(0, 0, 0, .5)
+    

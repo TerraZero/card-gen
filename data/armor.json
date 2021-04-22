@@ -6,12 +6,7 @@
     "framed": true
   },
   {
-    "type": "armor.svg",
-    "title": "Mittlere Rüstung",
-    "images": "armor-support.png",
-    "framed": true
-  },
-  {
+    "_count": 2,
     "type": "armor.svg",
     "title": "Mittlere Rüstung",
     "images": "armor-support.png",

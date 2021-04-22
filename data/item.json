@@ -7,81 +7,112 @@
     "framed": true
   },
   {
+    "_count": 2,
+    "type": "item-use.svg",
+    "title": "Pillen",
+    "images": "item-pill.png",
+    "stretched": true
+  },
+  {
     "type": "item-use.svg",
     "title": "Auth Überbrücker",
     "images": "item-key-hack.jpg",
     "stretched": true
   },
   {
-    "type": "item-use.svg",
-    "title": "Seil",
-    "images": "item-key-hack.jpg",
+    "type": "item.svg",
+    "title": "Keycard",
+    "images": "item-keycard.png",
     "stretched": true
   },
   {
-    "type": "item-use.svg",
-    "title": "Bohrer",
-    "images": "item-key-hack.jpg",
+    "type": "item.svg",
+    "title": "Schlüssel",
+    "images": "item-key.png",
     "stretched": true
+  },
+  {
+    "type": "item.svg",
+    "title": "Thermit",
+    "images": "item-thermite.jpg",
+    "stretched": true
+  },
+  {
+    "type": "item.svg",
+    "title": "Seil",
+    "images": "item-rope.png"
+  },
+  {
+    "type": "item.svg",
+    "title": "Bohrer",
+    "images": "item-drill.png"
   },
   {
     "type": "item-use.svg",
     "title": "Hohlladung",
-    "images": "item-key-hack.jpg",
+    "images": "item-dynamite.png",
+    "stretched": true
+  },
+  {
+    "type": "item-use.svg",
+    "title": "Wandladung",
+    "images": "item-wall-breaker.jpg",
+    "stretched": true
+  },
+  {
+    "type": "item-use.svg",
+    "title": "Annäherungs Bombe",
+    "images": "item-ladung.png",
+    "stretched": true
+  },
+  {
+    "type": "item-use.svg",
+    "title": "Dietrich",
+    "images": "item-lockpick.png",
     "stretched": true
   },
   {
     "type": "item-use.svg",
     "title": "Kreissäge",
-    "images": "item-key-hack.jpg",
-    "stretched": true
+    "images": "item-saw.png"
   },
   {
     "type": "item-use.svg",
     "title": "Haken",
-    "images": "item-key-hack.jpg",
-    "stretched": true
-  },
-  {
-    "type": "item-use.svg",
-    "title": "Enterhaken",
-    "images": "item-key-hack.jpg",
-    "stretched": true
+    "images": "item-hacken.png",
+    "framed": true
   },
   {
     "type": "item-use.svg",
     "title": "Kamera",
-    "images": "item-key-hack.jpg",
-    "stretched": true
+    "images": "item-camera.png"
   },
   {
     "type": "item-use.svg",
-    "title": "Sentry",
-    "images": "item-key-hack.jpg",
-    "stretched": true
+    "title": "Sentry Gun",
+    "images": "item-sentry.png",
+    "framed": true
   },
   {
     "type": "item-use.svg",
     "title": "Spider Bot",
-    "images": "item-key-hack.jpg",
-    "stretched": true
+    "images": "item-spider.png",
+    "framed": true
   },
   {
     "type": "item-use.svg",
     "title": "Bot",
-    "images": "item-key-hack.jpg",
-    "stretched": true
+    "images": ["item-bot-three.svg", "item-bot-four.svg"]
   },
   {
     "type": "item-use.svg",
     "title": "F.A.N.",
-    "images": "item-key-hack.jpg",
-    "stretched": true
+    "images": "item-funk.svg",
+    "framed": true
   },
   {
     "type": "item-use.svg",
     "title": "Kabel",
-    "images": "item-key-hack.jpg",
-    "stretched": true
+    "images": "item-kabel.png"
   }
 ]

@@ -1,0 +1,10 @@
+extends card.pug
+
+block card
+  .card__title
+    | #{title}
+  .card__list
+    each row in list
+      each cell in row
+        .card__cell
+          | #{cell}

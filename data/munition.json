@@ -68,8 +68,18 @@
   },
   {
     "type": "mun-add.svg",
-    "title": "ACM",
+    "title": "ACA",
     "images": "mun-acm.png",
+    "description": ["Anti-Cover-Ammunition", "Durchschlägt jede Art der Deckung mit einer Wolfram Kugel."],
+    "skills": [
+      ["H", "-2"],
+      ["S", "+5"]
+    ]
+  },
+  {
+    "type": "mun-add.svg",
+    "title": "Schrotmunition",
+    "images": "mun-shrot.png",
     "description": ["Durchschlägt Panzerung und starke Wände.", "Nach Einschlag bohrt sich die Kugel durch die Panzerung und explodiert."],
     "skills": [
       ["H", "-2"],
@@ -78,8 +88,18 @@
   },
   {
     "type": "mun-add.svg",
-    "title": "Schrotmuni",
-    "images": "mun-acm.png",
+    "title": "Brandmunition",
+    "images": "mun-fire.png",
+    "description": ["Durchschlägt Panzerung und starke Wände.", "Nach Einschlag bohrt sich die Kugel durch die Panzerung und explodiert."],
+    "skills": [
+      ["H", "-2"],
+      ["S", "+5"]
+    ]
+  },
+  {
+    "type": "mun-add.svg",
+    "title": "Blendmunition",
+    "images": "mun-blend.png",
     "description": ["Durchschlägt Panzerung und starke Wände.", "Nach Einschlag bohrt sich die Kugel durch die Panzerung und explodiert."],
     "skills": [
       ["H", "-2"],
@@ -89,8 +109,18 @@
   {
     "type": "mun-add.svg",
     "title": "Flammenmuni",
-    "images": "mun-acm.png",
+    "images": "mun-spike.png",
     "description": ["Durchschlägt Panzerung und starke Wände.", "Nach Einschlag bohrt sich die Kugel durch die Panzerung und explodiert."],
+    "skills": [
+      ["H", "-2"],
+      ["S", "+5"]
+    ]
+  },
+  {
+    "type": "mun-add.svg",
+    "title": "ACA ++",
+    "images": "mun-crash.png",
+    "description": ["Verbesserte Version der ACA.", "Durchschlägt jede Art der Deckung mit Wolfram Kugeln und zerstört interne Integrität der Deckung nachhaltig."],
     "skills": [
       ["H", "-2"],
       ["S", "+5"]

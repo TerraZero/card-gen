@@ -1,0 +1,13 @@
+[
+  {
+    "_card": "list",
+    "title": "Glossar",
+    "list": [
+      ["R", "Reichweite"],
+      ["S", "Schaden"],
+      ["H", "Haltung"],
+      ["A", "Wirkungsbereich"],
+      ["M", "Munition"]
+    ]
+  }
+]

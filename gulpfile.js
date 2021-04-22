@@ -23,7 +23,7 @@ Gulp.task('sass', () => {
 let card_compiles = {};
 function getCard(data, _print = false) {
   data._card = data._card || 'default';
-  data._template = data._template || (data._card === 'default' ? 'card.pug' : 'card__' + data.card + '.pug');
+  data._template = data._template || (data._card === 'default' ? 'card.pug' : 'card__' + data._card + '.pug');
   if (card_compiles[data._template] === undefined) {
     card_compiles[data._template] = Pug.compileFile('src/' + data._template);
   }
@@ -94,21 +94,34 @@ function getChunk(array, size) {
   }, []);
 }
 
+const fcopy = (file) => {
+  console.log('[COPY]', file);
+  FS.writeFileSync(Path.join('dest', file), FS.readFileSync(file));
+};
+const fdel = (file) => {
+  console.log('[DELETE]', file);
+  FS.unlinkSync(Path.join('dest', file));
+};
+
 Gulp.task('files', () => {
   return Gulp.src('files/**/*')
     .pipe(Gulp.dest('./dest/files'));
 });
 
-Gulp.task('serve', Gulp.series('cleanup', 'files', 'sass', 'generate', () => {
+Gulp.task('serve', Gulp.series('cleanup', 'files', 'sass', 'generate', (finished) => {
   BrowserSync.init({
     server: {
       baseDir: './dest',
     }
   });
 
-  Gulp.watch('files/**/*', Gulp.series('files'));
+  Gulp.watch('files/**/*')
+    .on('change', fcopy)
+    .on('add', fcopy)
+    .on('unlink', fdel);
   Gulp.watch('src/**/*.sass', Gulp.series('sass'));
   Gulp.watch('src/**/*.pug', Gulp.series('generate'));
   Gulp.watch('data/**/*.json', Gulp.series('generate'));
-  Gulp.watch(['dest/**/*', '!dest/files/**/*']).on('change', BrowserSync.reload);
+  Gulp.watch('dest/**/*').on('change', BrowserSync.reload);
+  finished();
 }));
