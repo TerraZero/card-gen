@@ -1,0 +1,71 @@
+[
+  {
+    "_serial": "58",
+    "_version": "0.0",
+    "_finished": true,
+    "type": "melee.svg",
+    "title": "Schwert",
+    "description": ["Eine absolut tödliche Waffe für den Nahkampf."],
+    "images": "melee-sword.png",
+    "skills": [
+      ["N", "3"],
+      ["R", "2"],
+      ["S", "18/"],
+      ["+S", "8/"]
+    ],
+    "tags": ["schmuggeln", "weight-1"],
+    "droped": true
+  },
+  {
+    "_serial": "59",
+    "_version": "0.0",
+    "_count": 2,
+    "_finished": true,
+    "type": "melee.svg",
+    "title": "Messer",
+    "description": ["Eine simple Waffe für den Nahkampf."],
+    "images": "melee-knife.png",
+    "skills": [
+      ["N", "2"],
+      ["S", "12/"],
+      ["+S", "8/"]
+    ],
+    "tags": ["hide"],
+    "framed": true,
+    "droped": true
+  },
+  {
+    "_serial": "60",
+    "_version": "0.0",
+    "_count": 2,
+    "_finished": true,
+    "type": "melee.svg",
+    "title": "Schlagring",
+    "description": ["Eine kleine Waffe für den Nahkampf."],
+    "images": "melee-nuckl.png",
+    "skills": [
+      ["N", "1"],
+      ["S", "8/"],
+      ["+S", "8/"]
+    ],
+    "framed": true,
+    "droped": true
+  },
+  {
+    "_serial": "61",
+    "_version": "0.0",
+    "_finished": true,
+    "type": "melee.svg",
+    "title": "Schlagringmesser",
+    "description": ["Eine kombination von Messer und Schlagring."],
+    "images": "melee-knucklknife.png",
+    "skills": [
+      ["N", "2"],
+      ["S", "8-12/"],
+      ["+S", "8/"]
+    ],
+    "tags": ["schmuggeln"],
+    "framed": true,
+    "droped": true
+  }
+]

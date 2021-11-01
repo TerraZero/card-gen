@@ -2,10 +2,45 @@ doctype html
 
 html
   head
-    link(rel="stylesheet", href="styles.css")
     link(href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap", rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css2?family=Abel&display=swap", rel="stylesheet")
+    link(rel="stylesheet", href="styles.css")
+    script(src="/jquery-3.6.0.min.js")
+    script(src="/card__sort.js")
   body
-    .page(class='page--' + (print ? 'print' : 'generate'))
+    .page(class='page--' + (type ? type : 'generate'))
+      if !hide_form
+        .form
+          .form__filters
+            .form__wrapper
+              .form__filter.form__filter--full
+                input.form__input(type="text", placeholder="Suche", data-filter="text")
+            details.form__more
+              summary.form__summary Erweiterte Suche
+              .form__wrapper
+                .form__filter
+                  input.form__input(type="text", placeholder="Title", data-filter="title")
+                .form__filter
+                  input.form__input(type="text", placeholder="Skills", data-filter="skills", data-split="")
+                .form__filter
+                  input.form__input(type="text", placeholder="Beschreibung", data-filter="description")
+                .form__filter
+                  input.form__input(type="text", placeholder="Serial", data-filter="serial")
+                .form__filter.form__props
+                  label.form__label Is Finished
+                    input.form__input.form__check(type="checkbox", value="is__finished")
+                  label.form__label Not Finished
+                    input.form__input.form__check(type="checkbox", value="not__finished")
+          .form__sorters
+            select.form__sort
+              option(value="serial__asc") Serial ASC
+              option(value="serial__desc") Serial DESC
+              option(value="index__asc") Index ASC
+              option(value="index__desc") Index DESC
+              option(value="title__asc") Title ASC
+              option(value="title__desc") Title DESC
+            button.form__button.form__reset Reset
+            .form__info
       block page
         .cards
           each card in cards

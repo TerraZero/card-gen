@@ -1,0 +1,274 @@
+[
+  {
+    "_serial": "10",
+    "_version": "0.0",
+    "_finished": true,
+    "type": "gun.svg",
+    "title": "Shotgun",
+    "images": "gun-shot.png",
+    "description": ["Eine stabile und sichere Waffe für den Sturm und Nahkampf."],
+    "skills": [
+      ["G", "-1"],
+      ["M", "2/4"],
+      ["R", "2"],
+      ["S", "6/14"],
+      ["+S", "4/12"],
+      ["Z", "7/2"]
+    ],
+    "tags": ["type-shotgun"],
+    "framed": true
+  },
+  {
+    "_serial": "11",
+    "_version": "0.0",
+    "_finished": true,
+    "_count": 2,
+    "type": "gun.svg",
+    "title": "Sturmgewehr",
+    "images": "gun-sturm.png",
+    "description": ["Die Standard Waffe für jeden Moment."],
+    "skills": [
+      ["G", "-1"],
+      ["M", "5/2"],
+      ["R", "2-4"],
+      ["S", "6/10"],
+      ["+S", "4/8"],
+      ["Z", "4/3"]
+    ],
+    "tags": ["type-sturm", "multi-shot"],
+    "framed": true
+  },
+  {
+    "_serial": "12",
+    "_version": "0.0",
+    "_finished": true,
+    "type": "gun.svg",
+    "title": "MP5",
+    "images": "gun-mp5.png",
+    "description": ["Eine einfache Waffe für den schnellen Kampf.", "Wirkungsvoll und Schnell.", "_Alle negative Effekte von Items die [H] beeinflussen, können Ignoriert werden."],
+    "skills": [
+      ["M", "5/3"],
+      ["R", "2-3"],
+      ["S", "4/8"],
+      ["+S", "4/6"],
+      ["Z", "5/2"]
+    ],
+    "tags": ["type-mp", "multi-shot"],
+    "framed": true
+  },
+  {
+    "_serial": "13",
+    "_version": "0.0",
+    "_finished": true,
+    "type": "gun.svg",
+    "title": "Sniper",
+    "images": "gun-msr.png",
+    "description": ["Eine Waffe für den absoluten Fernkampf.", "_Alle negative Effekte von Items die [Z] beeinflussen, können ignoriert werden."],
+    "skills": [
+      ["G", "-1"],
+      ["M", "1/6"],
+      ["R", "6-9"],
+      ["S", "6/18"],
+      ["+S", "4/20"],
+      ["Z", "-1/10"]
+    ],
+    "tags": ["type-sniper"],
+    "framed": true
+  },
+  {
+    "_serial": "14",
+    "_version": "0.0",
+    "_finished": true,
+    "_count": 4,
+    "type": "gun-sec.svg",
+    "title": "Pistole",
+    "images": "gun-pistol.png",
+    "description": ["Die standard Ergänzung für jede Ausrüstung."],
+    "skills": [
+      ["M", "4/4"],
+      ["R", "2-3"],
+      ["S", "2/8"],
+      ["+S", "6/6"],
+      ["Z", "4/3"]
+    ],
+    "tags": ["type-pistol"],
+    "framed": true
+  },
+  {
+    "_serial": "15",
+    "_version": "0.0",
+    "_finished": true,
+    "type": "gun-sec.svg",
+    "title": "Taser",
+    "images": "gun-taser.png",
+    "description": ["Eine nicht tödliche Waffe.", "Kann auch eingesetzt werden um Cybersysteme zu überladen."],
+    "skills": [
+      ["M", "1/4"],
+      ["R", "2"],
+      ["S", "2/2"],
+      ["+S", "4/0"],
+      ["Z", "3/1"]
+    ],
+    "tags": ["type-pistol"],
+    "framed": true,
+    "droped": true
+  },
+  {
+    "_serial": "16",
+    "_version": "0.0",
+    "_finished": true,
+    "type": "gun.svg",
+    "title": "Granatwerfer",
+    "images": "gun-grenate.png",
+    "description": ["Kann eingesetzt werden um Granaten zu verschießen.", "Alternativ kann damit auch alles mögliche verschossen werden."],
+    "skills": [
+      ["G", "-2"],
+      ["M", "1/2"],
+      ["R", "2-4"],
+      ["S", "6/-"],
+      ["+S", "8/0"],
+      ["Z", "3/1"]
+    ],
+    "framed": true,
+    "droped": true
+  },
+  {
+    "_serial": "17",
+    "_version": "0.0",
+    "_count": 2,
+    "_finished": true,
+    "type": "gun-add.svg",
+    "title": "Bajonett",
+    "images": "gun-bajonett.png",
+    "description": ["Macht jede Waffe zu einer gefährlichen Nahkampfwaffe."],
+    "skills": [
+      ["S", "+12/"],
+      ["Z", "-1/"]
+    ],
+    "droped": true
+  },
+  {
+    "_serial": "18",
+    "_version": "0.0",
+    "_finished": true,
+    "type": "gun-add.svg",
+    "title": "Visier",
+    "images": "equip-visier.png",
+    "description": ["Erweitert die Reichweite einer Waffe."],
+    "skills": [
+      ["R", "+2"],
+      ["Z", "-2/+4"]
+    ]
+  },
+  {
+    "_serial": "19",
+    "_version": "0.0",
+    "_finished": true,
+    "type": "gun-add.svg",
+    "title": "Sniper Schiene",
+    "images": "equip-schiene.png",
+    "description": ["Verbessert das Zielen mit einer Waffe.", "_Wirkt nur wenn die Waffe auf einer festen Oberfläche gelegt werden kann."],
+    "skills": [
+      ["R", "+1"],
+      ["Z", "-4/+6"]
+    ],
+    "framed": true,
+    "droped": true
+  },
+  {
+    "_serial": "20",
+    "_version": "0.0",
+    "_finished": true,
+    "type": "gun-add.svg",
+    "title": "Langer Lauf",
+    "images": "equip-long.png",
+    "description": ["Erhöht Genauigkeit und Reichweite einer Waffe."],
+    "skills": [
+      ["R", "+1"],
+      ["S", "-1/+2"],
+      ["Z", "-2/+2"]
+    ],
+    "framed": true
+  },
+  {
+    "_serial": "21",
+    "_version": "0.0",
+    "_finished": true,
+    "type": "gun-add.svg",
+    "title": "Kurzer Lauf",
+    "images": "equip-short.png",
+    "description": ["Erhöht Genauigkeit aus der Hüfte."],
+    "skills": [
+      ["Z", "+2/-2"]
+    ],
+    "framed": true
+  },
+  {
+    "_serial": "22",
+    "_version": "0.0",
+    "_finished": true,
+    "_count": 3,
+    "type": "gun-add.svg",
+    "title": "Schalldämpfer",
+    "images": "equip-silencer.png",
+    "description": ["Dämpft die Geräuche beim abschießen einer Waffe."],
+    "skills": [
+      ["R", "+~1"],
+      ["Z", "-1/+2"]
+    ],
+    "framed": true
+  },
+  {
+    "_serial": "23",
+    "_version": "0.0",
+    "_finished": true,
+    "_count": 2,
+    "type": "gun-add.svg",
+    "title": "Reflex Visier",
+    "images": "equip-reflex.png",
+    "description": ["Erhöht die Genauigkeit beim Zielen."],
+    "skills": [
+      ["Z", "+2/+1"]
+    ],
+    "framed": true
+  },
+  {
+    "_serial": "24",
+    "_version": "0.0",
+    "_finished": true,
+    "type": "gun-add.svg",
+    "title": "Erweitertes Magazin",
+    "images": "equip-extend.png",
+    "description": ["Erhöht die Magazingröße.", "_Sniper und Shotgun erhöht es nur um 1."],
+    "skills": [
+      ["M", "+3/+1"]
+    ],
+    "framed": true
+  },
+  {
+    "_serial": "25",
+    "_version": "0.0",
+    "_finished": true,
+    "type": "gun-add.svg",
+    "title": "Kolben",
+    "images": "equip-stock.png",
+    "description": ["Erhöht die Stabilität und damit die Zielgenauigkeit.", "_Kann nicht eine Sniper verbessern."],
+    "skills": [
+      ["S", "+2/"],
+      ["Z", "+2/+1"]
+    ],
+    "framed": true
+  },
+  {
+    "_serial": "26",
+    "_version": "0.0",
+    "_finished": true,
+    "type": "gun-add.svg",
+    "title": "Laser",
+    "images": "equip-laser.png",
+    "description": ["Erhöht die Zielgenauigkeit aus der Hüfte.", "_Erzeugt ein Laserstrahl der sichtbar ist."],
+    "skills": [
+      ["Z", "+3/+1"]
+    ]
+  }
+]

@@ -1,39 +1,106 @@
 [
   {
+    "_serial": "1",
+    "_version": "0.0",
+    "_finished": true,
     "type": "armor.svg",
     "title": "Schwere Rüstung",
     "images": "armor-sturm.png",
+    "description": [
+      "Eine schwere Rüstung die Geschwindigkeit und Zielgenauigkeit gegen Schutz eintauscht.",
+      "Die Rüstung zählt als schwache Deckung."
+    ],
+    "skills": [
+      ["G", "-2"],
+      ["P", "+6"],
+      ["Z", "/-1"]
+    ],
     "framed": true
   },
   {
+    "_serial": "2",
+    "_version": "0.0",
+    "_finished": true,
     "_count": 2,
     "type": "armor.svg",
     "title": "Mittlere Rüstung",
     "images": "armor-support.png",
+    "description": ["Eine ausgewogende Rüstung für jeden Einsatzzweck geeignet."],
+    "skills": [
+      ["G", "-1"],
+      ["P", "+4"]
+    ],
     "framed": true
   },
   {
+    "_serial": "3",
+    "_version": "0.0",
+    "_finished": true,
     "type": "armor.svg",
     "title": "Leichte Rüstung",
     "images": "armor-sniper.png",
+    "description": [
+      "Eine leichte Rüstung die perfekt für den Scharfschützen ist.",
+      "Diese Rüstung kann zum Schleichen benutzt werden und bietet dabei große Vorteile."
+    ],
+    "skills": [
+      ["P", "+1"],
+      ["T", "+1"],
+      ["Z", "1/"]
+    ],
     "framed": true
   },
   {
+    "_serial": "4",
+    "_version": "0.0",
+    "_finished": true,
     "_count": 2,
     "type": "armor-add.svg",
     "title": "Energieschild",
-    "images": "armor-energy.png"
+    "images": "armor-energy.png",
+    "description": [
+      "Ein Energieschild das alle physichen Einwirkungen abfängt.",
+      "Die Rüstung ist nicht geeignet um Explosionen oder mehrere gleichzeitige Projektile aufzuhalten."
+    ],
+    "skills": [
+      ["P", "+2"],
+      ["T", "-1"]
+    ]
   },
   {
+    "_serial": "5",
+    "_version": "0.0",
+    "_finished": true,
     "_count": 2,
     "type": "armor-add.svg",
     "title": "Tarnkappe",
-    "images": "armor-energy.png"
+    "images": "armor-energy.png",
+    "description": [
+      "Die Tarnkappe kann den Träger nahezu 100% unsichtbar machen.",
+      "Die Tarnung kann nicht für lange aufrecht erhalten werden."
+    ],
+    "skills": [
+      ["T", "+6"]
+    ]
   },
   {
+    "_serial": "6",
+    "_version": "0.0",
+    "_finished": true,
+    "_count": 2,
     "type": "armor-add.svg",
     "title": "Sturmschild",
     "images": "armor-shield.png",
+    "description": [
+      "Das Schild ist ein starker Schutz gegen alle Schäden, solange er richtig ausgerichtet ist.",
+      "Leider ist es mit Schild kaum möglich zu Zielen.",
+      "Es können auch Explosionen abgehalten werden."
+    ],
+    "skills": [
+      ["G", "-1"],
+      ["P", "+4"],
+      ["Z", "/-6"]
+    ],
     "framed": true
   }
 ]

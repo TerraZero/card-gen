@@ -1,13 +1,69 @@
 [
   {
+    "_serial": "84",
+    "_version": "0.0",
     "_card": "list",
-    "title": "Glossar",
+    "title": "Einheiten",
     "list": [
+      ["A", "Aktionen (Nutzung)"],
+      ["G", "Geschwindigkeit"],
+      ["H", "Heilung"],
+      ["+H", "Variable Heilung"],
+      ["M", "Munition / Vorrat"],
+      ["N", "Nahkampf Ausdauer"],
+      ["P", "Panzerung"],
       ["R", "Reichweite"],
-      ["S", "Schaden"],
-      ["H", "Haltung"],
-      ["A", "Wirkungsbereich"],
-      ["M", "Munition"]
+      ["S", "Nahkampf / Fernkampf"],
+      ["+S", "Variabler Schaden (N/F)"],
+      ["T", "Tarnung"],
+      ["W", "Wirkungsbereich"],
+      ["Z", "Hüfte / Zielen"]
+    ]
+  },
+  {
+    "_serial": "85",
+    "_version": "0.0",
+    "_card": "list",
+    "title": "Werte",
+    "list": [
+      ["+#", "# Hinzufügen"],
+      ["-#", "# Reduzieren"],
+      ["+~#", "Um den Wert # erweitern"],
+      ["-~#", "Um den Wert # reduzieren"],
+      ["+-R", "Über/Unter Reichweite [-2Z]"]
+    ]
+  },
+  {
+    "_serial": "101",
+    "_version": "0.0",
+    "_card": "list",
+    "title": "Aktionen",
+    "list": [
+      ["G", "Laufen"],
+      ["G+3", "Sprint (2A)"],
+      ["G+3", "Werfen von Gegenständen"],
+      ["M/", "Nachladen"],
+      ["T", "Verstecken"],
+      ["Z/", "Aus der Hüfte schießen"],
+      ["/Z", "Gezielt schießen"],
+      ["-", "Zielen [+~1R]"],
+      ["-", "Item Nutzen"]
+    ]
+  },
+  {
+    "_serial": "101",
+    "_version": "0.0",
+    "_card": "list",
+    "title": "Aus der Hüfte",
+    "list": [
+      ["-3Z", "Kopf [1-2]"],
+      ["+12S", "Kopf"],
+      ["- Z", "Körper [3-12]"],
+      ["- S", "Körper"],
+      ["-2Z", "Arme [13-16]"],
+      ["-6S", "Arme / Entwaffnen"],
+      ["-4Z", "Beine [17-20]"],
+      ["-6S", "Beine / Stop Bewegung"]
     ]
   }
 ]

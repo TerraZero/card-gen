@@ -2,6 +2,12 @@ extends page.pug
 
 block page
   .index
+    p
+      | Last Serial Index: #{serial}
+    p 
+      | Missing Serial Indexes: #{missing.join(', ')}
+    p 
+      | Duplicate Serial Indexes: #{duplicates.join(', ')}
     ul.menu
       each link in links
         li  

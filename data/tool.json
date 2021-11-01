@@ -1,0 +1,87 @@
+[
+  {
+    "_serial": "86",
+    "_version": "0.0",
+    "type": "tool.svg",
+    "title": "Fernrohr",
+    "images": "tool-spyglass.png",
+    "framed": true,
+    "droped": true
+  },
+  {
+    "_serial": "87",
+    "_version": "0.0",
+    "type": "tool.svg",
+    "title": "Bohrer",
+    "images": "tool-drill.png"
+  },
+  {
+    "_serial": "88",
+    "_version": "0.0",
+    "type": "tool.svg",
+    "title": "Dietrich",
+    "images": "tool-lockpick.png",
+    "stretched": true
+  },
+  {
+    "_serial": "89",
+    "_version": "0.0",
+    "type": "tool.svg",
+    "title": "Kreissäge",
+    "images": "tool-saw.png"
+  },
+  {
+    "_serial": "90",
+    "_version": "0.0",
+    "type": "tool.svg",
+    "title": "Sentry Gun",
+    "images": "tool-sentry.png",
+    "framed": true
+  },
+  {
+    "_serial": "91",
+    "_version": "0.0",
+    "type": "tool.svg",
+    "title": "Spider Bot",
+    "images": "tool-spider.png",
+    "framed": true
+  },
+  {
+    "_serial": "92",
+    "_version": "0.0",
+    "type": "tool.svg",
+    "title": "Bot",
+    "images": ["tool-bot-one.svg", "tool-bot-two.svg"]
+  },
+  {
+    "_serial": "93",
+    "_version": "0.0",
+    "type": "tool.svg",
+    "title": "Wurfmesser",
+    "images": "tool-throwing-knife.png",
+    "framed": true,
+    "droped": true
+  },
+  {
+    "_serial": "94",
+    "_version": "0.0",
+    "_finished": false,
+    "type": "tool.svg",
+    "title": "Nachtsichtgerät",
+    "images": "tool-night-vision.png",
+    "framed": true,
+    "droped": true
+  },
+  {
+    "_serial": "40",
+    "_version": "0.0",
+    "_finished": false,
+    "type": "tool.svg",
+    "title": "Koffer",
+    "description": ["Mit diesem Koffer lassen sich Waffen und andere Gegenstände durch Kontrollen Schmuggeln."],
+    "images": "koffer.webp",
+    "framed": true,
+    "droped": true,
+    "shadowed": true
+  }
+]

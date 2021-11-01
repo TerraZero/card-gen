@@ -1,0 +1,140 @@
+[
+  {
+    "_serial": "47",
+    "_version": "0.0",
+    "type": "loot.svg",
+    "title": "Koks",
+    "images": "loot-coke.png",
+    "skills": [
+      ["M", "1"]
+    ],
+    "droped": true,
+    "streched": true
+  },
+  {
+    "_serial": "48",
+    "_version": "0.0",
+    "_count": 2,
+    "type": "loot.svg",
+    "title": "Geld",
+    "images": "loot-cash-small.png",
+    "skills": [
+      ["M", "1"]
+    ],
+    "framed": true,
+    "droped": true
+  },
+  {
+    "_serial": "49",
+    "_version": "0.0",
+    "_count": 2,
+    "type": "loot.svg",
+    "title": "Viel Geld",
+    "images": "loot-cash-big.png",
+    "skills": [
+      ["M", "1"]
+    ],
+    "framed": true,
+    "droped": true
+  },
+  {
+    "_serial": "50",
+    "_version": "0.0",
+    "_count": 2,
+    "type": "loot.svg",
+    "title": "Gold",
+    "images": "loot-gold-small.png",
+    "skills": [
+      ["M", "1"]
+    ],
+    "framed": true,
+    "droped": true
+  },
+  {
+    "_serial": "51",
+    "_version": "0.0",
+    "_count": 2,
+    "type": "loot.svg",
+    "title": "Gold Haufen",
+    "images": "loot-gold-big.webp",
+    "skills": [
+      ["M", "1"]
+    ],
+    "framed": true,
+    "droped": true
+  },
+  {
+    "_serial": "52",
+    "_version": "0.0",
+    "_count": 2,
+    "type": "loot.svg",
+    "title": "Schmuck",
+    "images": "loot-jewelry.png",
+    "skills": [
+      ["M", "1"]
+    ],
+    "framed": true,
+    "droped": true
+  },
+  {
+    "_serial": "53",
+    "_version": "0.0",
+    "_count": 2,
+    "type": "loot.svg",
+    "title": "Gemälde",
+    "images": "loot-painting.png",
+    "skills": [
+      ["M", "1"]
+    ],
+    "framed": true
+  },
+  {
+    "_serial": "54",
+    "_version": "0.0",
+    "_count": 2,
+    "type": "loot.svg",
+    "title": "Diamanten",
+    "images": "loot-diamonds.png",
+    "skills": [
+      ["M", "1"]
+    ],
+    "streched": true,
+    "droped": true
+  },
+  {
+    "_serial": "55",
+    "_version": "0.0",
+    "_count": 2,
+    "type": "loot.svg",
+    "title": "Artefakt",
+    "images": "loot-artifact.png",
+    "skills": [
+      ["M", "1"]
+    ],
+    "framed": true
+  },
+  {
+    "_serial": "56",
+    "_version": "0.0",
+    "_count": 2,
+    "type": "loot.svg",
+    "title": "Militär Waffen",
+    "images": "loot-warhead.png",
+    "skills": [
+      ["M", "1"]
+    ],
+    "framed": true,
+    "droped": true
+  },
+  {
+    "_serial": "57",
+    "_version": "0.0",
+    "_count": 2,
+    "type": "loot.svg",
+    "title": "Geheim Informationen",
+    "images": "loot-evidence.png",
+    "skills": [
+      ["M", "1"]
+    ]
+  }
+]

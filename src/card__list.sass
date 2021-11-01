@@ -11,15 +11,19 @@
     display: grid
     grid-template-columns: 38px 1fr
     margin: 15px
+    border-bottom: 1px solid black
 
   &__cell
     text-align: center
     border: 1px solid black
+    border-bottom-width: 0
     box-sizing: border-box
     background: rgba(0, 0, 0, .2)
     color: white
     text-shadow: 1px 1px 5px black
+    font-family: 'Abel', sans-serif
 
   &__cell:nth-child(2n+1)
     background: rgba(0, 0, 0, .5)
+    border-right-width: 0
     

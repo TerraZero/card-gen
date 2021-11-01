@@ -1,7 +1,20 @@
 [
   {
+    "_serial": "7",
+    "_version": "0.0",
     "type": "com-add.svg",
     "title": "Hirn Optimierung",
+    "images": ["com-main.png", "cat-com-add.svg"],
+    "framed": true,
+    "droped": true,
+    "shadowed": true
+  },
+  {
+    "_serial": "96",
+    "_version": "0.0",
+    "_finished": false,
+    "type": "com-add.svg",
+    "title": "Magnet",
     "images": ["com-main.png", "cat-com-add.svg"],
     "framed": true,
     "droped": true,

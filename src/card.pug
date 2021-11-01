@@ -1,6 +1,17 @@
-.card__grid
-  .card(class='card--' + _card)
+- var _skills = '';
+
+if skills
+  -
+    for (const row of skills) {
+      _skills += row[0];
+    }
+
+.card__grid(class='card--' + _card, data-serial=_serial, data-index=_index, data-title=title, data-skills=_skills, data-description=(Array.isArray(description) ? description : [description ? description : '']).join(' '), data-finished=_finished)
+  .card
     block card
+      if value
+        .card__value
+          | #{value}
       .card__header
         block header
           .card__type
@@ -20,21 +31,60 @@
             each image in images
               .card__image(style="background-image: url('files/" + image + "');")
             .card__frame-image
-      if description
-        .card__description
-          block description
-            - description = (Array.isArray(description) ? description : [description]);
-            each desc in description
-              p.card__text
-                | #{desc}
-      if skills
-        .card__skills
-          .card__table
-            each row in skills
-              .card__row
-                each column in row
-                  .card__column
-                    | #{column}
+        block tags
+          .card__tags
+            - tags = (Array.isArray(tags) ? tags : [tags])
+            each tag in tags
+              .card__tag(style="background-image: url('files/tag-" + tag + ".svg');")
+      .card__bottom
+        block bottom
+          .card__description
+            block description
+              if description
+                - description = (Array.isArray(description) ? description : [description ? description : '']);
+                each desc in description
+                  -
+                    var desc_classes = [];
+                    if (desc.startsWith('_')) {
+                      desc = desc.substring(1);
+                      desc_classes.push('card__text--underline');
+                    }
+                  p.card__text(class=desc_classes)
+                    | #{desc}
+          .card__skills
+            if skills
+              .card__table(style='height: ' + (100 / 6 * skills.length) + '%')
+                each row in skills
+                  each column in row
+                    .card__column
+                      | #{column}
+    block meta
+      .card__meta
+        | #{_version} / #{_serial}
   if !_print
-    .card__data
-      | Number: #{_count}
+    .card__info
+      .card__data
+        .card__data-index
+          | Anzahl
+        .card__data-value
+          | #{_count}
+      .card__data
+        .card__data-index
+          | Type
+        .card__data-value
+          | #{_type}
+      .card__data
+        .card__data-index
+          | Serial
+        .card__data-value
+          | #{_serial}
+      .card__data
+        .card__data-index
+          | Index
+        .card__data-value
+          | #{_index}
+      .card__data
+        .card__data-index
+          | Finished
+        .card__data-value
+          | #{_finished ? 'yes' : 'no'}

@@ -1,5 +1,7 @@
 [
   {
+    "_serial": "62",
+    "_version": "0.0",
     "type": "mun-add.svg",
     "title": "Panzerbrechende Munition",
     "images": "mun-long.png",
@@ -11,6 +13,8 @@
     ]
   },
   {
+    "_serial": "63",
+    "_version": "0.0",
     "type": "mun-add.svg",
     "title": "Explodierende Munition",
     "images": "mun-explode.png",
@@ -23,6 +27,8 @@
     ]
   },
   {
+    "_serial": "64",
+    "_version": "0.0",
     "_count": 2,
     "type": "mun-add.svg",
     "title": "Gift Munition",
@@ -35,6 +41,8 @@
     ]
   },
   {
+    "_serial": "65",
+    "_version": "0.0",
     "_count": 2,
     "type": "mun-add.svg",
     "title": "Tag Munition",
@@ -46,6 +54,8 @@
     ]
   },
   {
+    "_serial": "66",
+    "_version": "0.0",
     "type": "mun-add.svg",
     "title": "EMP Munition",
     "images": "mun-emp.png",
@@ -57,6 +67,8 @@
     ]
   },
   {
+    "_serial": "67",
+    "_version": "0.0",
     "type": "mun-add.svg",
     "title": "Multifunktions Munition",
     "images": "mun-multi.png",
@@ -67,6 +79,8 @@
     ]
   },
   {
+    "_serial": "68",
+    "_version": "0.0",
     "type": "mun-add.svg",
     "title": "ACA",
     "images": "mun-acm.png",
@@ -77,16 +91,20 @@
     ]
   },
   {
+    "_serial": "69",
+    "_version": "0.0",
     "type": "mun-add.svg",
     "title": "Schrotmunition",
     "images": "mun-shrot.png",
-    "description": ["Durchschlägt Panzerung und starke Wände.", "Nach Einschlag bohrt sich die Kugel durch die Panzerung und explodiert."],
+    "description": ["Durchschlägt Panzerung und starke Wände.", "Nach Einschlag bohrt sich die Kugel durch die Panzerung und explodiert.", "_Kann nur von Shotgun benutzt werden."],
     "skills": [
       ["H", "-2"],
       ["S", "+5"]
     ]
   },
   {
+    "_serial": "70",
+    "_version": "0.0",
     "type": "mun-add.svg",
     "title": "Brandmunition",
     "images": "mun-fire.png",
@@ -97,6 +115,8 @@
     ]
   },
   {
+    "_serial": "71",
+    "_version": "0.0",
     "type": "mun-add.svg",
     "title": "Blendmunition",
     "images": "mun-blend.png",
@@ -107,6 +127,8 @@
     ]
   },
   {
+    "_serial": "72",
+    "_version": "0.0",
     "type": "mun-add.svg",
     "title": "Flammenmuni",
     "images": "mun-spike.png",
@@ -117,6 +139,8 @@
     ]
   },
   {
+    "_serial": "73",
+    "_version": "0.0",
     "type": "mun-add.svg",
     "title": "ACA ++",
     "images": "mun-crash.png",
@@ -127,6 +151,8 @@
     ]
   },
   {
+    "_serial": "74",
+    "_version": "0.0",
     "type": "mun-add.svg",
     "title": "Blendmuni",
     "images": "mun-acm.png",
@@ -137,6 +163,68 @@
     ]
   },
   {
+    "_serial": "75",
+    "_version": "0.0",
+    "type": "mun-add.svg",
+    "title": "Ablenkungsmunition",
+    "images": "mun-chaos.png",
+    "description": ["Kann zur Ablenkung benutzt werden.", "Tonart ist Programmierbar.", "_Kann ausschließlich von Shotgun oder Granatwerfer verschossen werden.", "_Schuss ist geräuchlos."],
+    "skills": [
+      ["H", "-2"],
+      ["S", "+5"]
+    ]
+  },
+  {
+    "_serial": "76",
+    "_version": "0.0",
+    "type": "mun-add.svg",
+    "title": "Schlafgas",
+    "images": "mun-soothe.png",
+    "description": ["Schläfert Lebewesen in Wirkungsbereich ein.", "_Kann ausschließlich von Shotgun oder Granatwerfer verschossen werden.", "_Schuss ist geräuchlos."],
+    "skills": [
+      ["H", "-2"],
+      ["S", "+5"]
+    ]
+  },
+  {
+    "_serial": "77",
+    "_version": "0.0",
+    "type": "mun-add.svg",
+    "title": "Säurebombe",
+    "images": "mun-poison.png",
+    "description": ["Erzäugt eine Säureexplosion die Wände wegätzen kann.", "_Kann ausschließlich von Shotgun oder Granatwerfer verschossen werden.", "_Schuss ist geräuchlos."],
+    "skills": [
+      ["H", "-2"],
+      ["S", "+5"]
+    ]
+  },
+  {
+    "_serial": "78",
+    "_version": "0.0",
+    "type": "mun-add.svg",
+    "title": "Prototyp A",
+    "images": "mun-proto-a.png",
+    "description": ["Ein Multi-Zielsuchender Schrotbolzen der sich im Flug teilt und mehrere Ziele ausschalten kann.", "_Kann ausschließlich von Shotgun oder Granatwerfer verschossen werden."],
+    "skills": [
+      ["H", "-2"],
+      ["S", "+5"]
+    ]
+  },
+  {
+    "_serial": "79",
+    "_version": "0.0",
+    "type": "mun-add.svg",
+    "title": "Prototyp Z",
+    "images": "mun-proto-z.png",
+    "description": ["Ein Bunkerbolzen der festes Gestein durchdringen kann und dann eine Splitterexplosion auslöst.", "_Kann ausschließlich von Shotgun oder Granatwerfer verschossen werden.", "_Schuss ist geräuchlos."],
+    "skills": [
+      ["H", "-2"],
+      ["S", "+5"]
+    ]
+  },
+  {
+    "_serial": "80",
+    "_version": "0.0",
     "_count": 2,
     "type": "mun-use.svg",
     "title": "Große Munition",
@@ -145,6 +233,8 @@
     "uses": 4
   },
   {
+    "_serial": "81",
+    "_version": "0.0",
     "_count": 3,
     "type": "mun-use.svg",
     "title": "Mittle Munition",
@@ -154,11 +244,33 @@
     "uses": 4
   },
   {
+    "_serial": "82",
+    "_version": "0.0",
     "_count": 4,
     "type": "mun-use.svg",
     "title": "Munition",
     "images": ["mun-mun.png", "mun-mun-2.png"],
     "description": "Füllt die Munition einer Waffe wieder auf.",
     "uses": 1
+  },
+  {
+    "_serial": "83",
+    "_version": "0.0",
+    "_count": 2,
+    "type": "mun-use.svg",
+    "title": "Toolbox",
+    "images": "item-holder.png",
+    "description": [
+      "???Das Schild ist ein starker Schutz gegen alle Schäden, solange er richtig ausgerichtet ist.",
+      "Leider ist es mit Schild kaum möglich zu Zielen.",
+      "Es können auch Explosionen abgehalten werden."
+    ],
+    "skills": [
+      ["G", "-1"],
+      ["P", "+4"],
+      ["Z", "-6"]
+    ],
+    "tags": ["tool"],
+    "framed": true
   }
 ]
